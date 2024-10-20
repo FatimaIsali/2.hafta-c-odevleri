@@ -1,0 +1,23 @@
+
+using System;
+class Program
+
+{
+    static void Main()
+    {
+        Console.WriteLine("Bir sayi giriniz:");
+        int sayi = int.Parse(Console.ReadLine());
+
+        if (sayi % 2 == 0)
+        {
+            Console.WriteLine("Girilen sayi cifttir.");
+        }
+        else
+        {
+            Console.WriteLine("Girilen sayi tektir.");
+
+        }
+
+    }
+
+}
