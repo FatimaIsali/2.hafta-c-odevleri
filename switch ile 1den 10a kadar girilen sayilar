@@ -1,0 +1,27 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("1 ile 10 arasinda bir sayi giriniz:");
+        int sayi = int.Parse(Console.ReadLine());
+
+        switch (sayi)
+        {
+            case 1: Console.WriteLine("Bir"); break;
+            case 2: Console.WriteLine("Iki"); break;
+            case 3: Console.WriteLine("Uc"); break;
+            case 4: Console.WriteLine("Dort"); break;
+            case 5: Console.WriteLine("Bes"); break;
+            case 6: Console.WriteLine("Alti"); break;
+            case 7: Console.WriteLine("Yedi"); break;
+            case 8: Console.WriteLine("Sekiz"); break;
+            case 9: Console.WriteLine("Dokuz"); break;
+            case 10: Console.WriteLine("On"); break;
+
+            default:
+                Console.WriteLine("1 ile 10 qrasi bir sayi girin:"); break;
+        }
+    }
+}
