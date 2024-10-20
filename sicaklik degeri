@@ -1,0 +1,26 @@
+    static void Main()
+    {
+
+        Console.WriteLine("Bir sicaklik degeri giriniz:");
+        int sicaklik = int.Parse(Console.ReadLine());
+
+        if (sicaklik >= 10 && sicaklik <= 20)
+        {
+            Console.WriteLine("Noemal.");
+        }
+        else if (sicaklik >= 20 && sicaklik <= 30)
+        {
+            Console.WriteLine("Sicak.");
+        }
+        else if (sicaklik >= 30 && sicaklik <= 40)
+        {
+            Console.WriteLine("Cok sicak");
+        }
+        else
+        {
+            Console.WriteLine("Sicaklik araligi disinda bir deger girdiniz.");
+        }
+    }
+}
+
+
